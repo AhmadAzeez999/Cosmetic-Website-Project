@@ -1,0 +1,93 @@
+/* Reset some default styles */
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero section styles */
+#hero 
+{
+    background-image: url('Images/HeroImg.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 200px 0px 250px 0px;
+}
+
+#hero h1 
+{
+    font-size: 4em;
+}
+
+h1
+{
+    font-size: 3em;
+}
+
+h2
+{
+    font-size: 2.5em;
+}
+
+p
+{
+    font-size: 1.3em;
+}
+
+.buttons
+{
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #50C878;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons:hover
+{
+    background-color: #82cd9b;
+}
+
+/* About, Products, and Contact sections */
+section 
+{
+    padding: 50px 0;
+    text-align: center;
+}
+
+#highlights
+{
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Product styles */
+.product 
+{
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+}
+
+.product img 
+{
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+#about
+{
+    margin: auto;
+    max-width: 900px;
+}
+
+#about img
+{
+    width: 500px;
+}
+

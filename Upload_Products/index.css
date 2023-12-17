@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz@1,6..12&display=swap');
+
+*
+{
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.formContent h2
+{
+    text-align: center;
+}
+
+.formContent
+{
+    margin: auto;
+    max-width: 40%;
+    border-style: solid;
+    border-radius: 2%;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.formContent button
+{ 
+    padding: 5px;
+    color: white;
+    background-color: rgb(37, 93, 245);
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}

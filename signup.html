@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_and_images/login.css">
+    <link rel="stylesheet" href="css_and_images/headerStyles.css">
+    <title>Sign up</title>
+</head>
+<body>
+    <header class="header-container">
+        <a href="index.php">
+            <img class="headerImg" src="css_and_images/images/Logo.png" alt="Company logo">
+        </a>
+    </header>
+
+    <main>
+        <div class="formContainer">
+            <h1> Signup </h1>
+            <form action="process-signup.php" method="post" novalidate>
+                <div>
+                    <label for="name"> Name: </label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <span class="error-message" id="nameError"></span>
+    
+                <div>
+                    <label for="email"> Email: </label>
+                    <input type="email" id="email" name="email" placeholder="abc@example.com">
+                </div>
+                <span class="error-message" id="emailError"></span>
+    
+                <div>
+                    <label for="password"> Password: </label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <span class="error-message" id="passwordError"></span>
+    
+                <div>
+                    <label for="password_confirmation"> Re-enter password: </label>
+                    <input type="password" id="password_confirmation" name="password_confirmation">
+                </div>
+                <span class="error-message" id="passwordConfirmationError"></span>
+    
+                <button> Sign up </button>
+            </form>
+    
+            <p> Already have an account? 
+                <a href="login.php"> Click here to login </a>
+            </p>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="js/validation.js"></script>
+</body>
+</html>

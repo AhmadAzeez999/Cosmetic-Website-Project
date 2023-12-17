@@ -1,0 +1,19 @@
+.mainContainer 
+{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.mainContainer h2 
+{
+    color: #333;
+    font-size: 2em;
+}
+
+.mainContainer p 
+{
+    color: #666;
+    font-size: 1.5em;
+}

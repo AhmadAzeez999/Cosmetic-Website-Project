@@ -1,0 +1,102 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url('Images/pexels-mikhail-nilov-8158583.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header-container
+{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+main 
+{
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 
+{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.formContainer 
+{
+    width: 400px;
+    margin: 50px 100px 50px 50px;
+    padding: 20px 20px 150px 20px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+}
+
+form 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+label 
+{
+    margin-bottom: 10px;
+}
+
+input 
+{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 380px;
+}
+
+input [type="email"]
+{
+    font-size: 20px;
+}
+
+button 
+{
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover 
+{
+    background-color: #45a049;
+}
+
+p 
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+a 
+{
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+em
+{
+    color: red;
+}
+
+.error-message
+{
+    color: red;
+    font-size: 0.8em;
+}

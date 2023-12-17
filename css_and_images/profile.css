@@ -1,0 +1,88 @@
+body 
+{
+    margin: 0;
+}
+
+.profile-container 
+{
+    display: flex;
+    margin: auto;
+    max-width: 900px;
+}
+
+.nav-container 
+{
+    width: 200px;
+    background-color: #4caf50;
+    color: white;
+}
+
+.nav-container a 
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px 10px 20px;
+}
+
+.nav-container a:hover 
+{
+    background-color: #45a049;
+}
+
+.main-content 
+{
+    flex: 1;
+    padding: 20px;
+}
+
+.main-content img
+{
+    width: 100px;
+}
+
+.profile-name 
+{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+label 
+{
+    margin-bottom: 10px;
+}
+
+input 
+{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 380px;
+}
+
+input [type="email"]
+{
+    font-size: 20px;
+}
+
+button 
+{
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+
+button:hover 
+{
+    background-color: #45a049;
+}
